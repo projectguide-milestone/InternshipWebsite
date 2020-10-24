@@ -1,4 +1,3 @@
 //landing page
-//some change
-//lakshith
-//shrinidhi
+//Module 2 Lakshith and Shrinidhi
+
