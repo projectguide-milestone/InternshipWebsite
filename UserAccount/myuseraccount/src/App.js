@@ -1,7 +1,7 @@
 import React, {component} from 'react';
 import './App.css';
-import {loginPage} from './components/loginPage';
-import {Navigation} from './components/navigation';
+import {loginPage} from './Components/loginPage';
+import {Navigation} from './Components/navigation';
 
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
@@ -13,7 +13,6 @@ function App() {
         <Switch>
           <Route path='/' component={loginPage} exact></Route>
         </Switch>
-        <Footer></Footer>
       </div>
     </BrowserRouter>
   )
