@@ -1,6 +1,8 @@
 //landing page
 //Module 2 Lakshith and Shrinidhi
 import React, {Component} from "react";
+import history from './history';
+import { Button } from 'react-bootstrap';
 import ReactDOM  from "react-dom";
 import studenticon from "./student icon.jpg";
 import collage from "./collage.jpg";
@@ -25,6 +27,9 @@ export class landingPage extends Component{
 <img src={collage} height="175" width="175"class="imagesleft"></img> <button class="button button3">Collage</button>
                
                </button>
+               <form>
+            <Button variant="btn btn-success" onClick={() => history.push('/loginPage')}>Click button to view products</Button>
+          </form>
             </div>
             
            
