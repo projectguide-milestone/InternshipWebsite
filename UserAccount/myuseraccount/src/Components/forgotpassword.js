@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 //import {NavLink} from 'react-router-dom';
 //import {Navbar, Nav} from 'react-bootstrap';
 
-export class forgotpass extends Component{
+export class forgotpassword extends Component{
     render(){
         return(
             <div className="App">
@@ -26,4 +26,4 @@ export class forgotpass extends Component{
         )
     }
 }
-export default forgotpass;
+export default forgotpassword;

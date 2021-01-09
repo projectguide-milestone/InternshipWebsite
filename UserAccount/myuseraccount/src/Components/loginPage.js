@@ -11,7 +11,7 @@ import {Link, BrowserRouter, Switch, Route, } from 'react-router-dom';
 import React, {Component} from 'react';
 //import landing from './landing';
 import signup from './signup';
-import forgotpass from './forgotpassword';
+import forgotpassword from './forgotpassword';
 import './hey.css';
 import axios from 'axios';
 import Swal from 'sweetalert2';
@@ -71,7 +71,7 @@ export class loginPage extends Component{
         
         <h7 className="label-sets1"> | </h7>
         
-        <Link to="/forgotpass">Forgot Password </Link>
+        <Link to="/forgotpassword">Forgot Password </Link>
         </h4>
         <br/>
         <br/>
@@ -86,7 +86,7 @@ export class loginPage extends Component{
         <Switch>
           
           <Route exact path="/signup" component={signup}></Route>
-          <Route exact path="/forgotpass" component={forgotpass}></Route>
+          <Route exact path="/forgotpassword" component={forgotpassword}></Route>
         </Switch>
     </BrowserRouter>
     </div>
